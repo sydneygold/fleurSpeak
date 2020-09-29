@@ -1,0 +1,532 @@
+[
+    {
+    "id": 1,
+    "name": "Azaelea",
+    "color": "Purple",
+    "image": "azaelea-purple.png",
+    "description": "In Japan and China, azaeleas symbolize remembrance of home and the desire to return and family. Victorians saw these flowers as a symbol of temperance and elegance. Though due to their toxicity, azaeleas delivered in a black vase once symbolized a death threat.",
+    "color_description": "Friendship, joy",
+    "created_at": "2020-09-29T14:07:59.754Z",
+    "updated_at": "2020-09-29T14:07:59.754Z"
+    },
+    {
+    "id": 2,
+    "name": "Azaelea",
+    "color": "Red",
+    "image": "azaelea-red.png",
+    "description": "In Japan and China, azaeleas symbolize remembrance of home and the desire to return and family. Victorians saw these flowers as a symbol of temperance and elegance. Though due to their toxicity, azaeleas delivered in a black vase once symbolized a death threat.",
+    "color_description": "Passion, romance",
+    "created_at": "2020-09-29T14:07:59.789Z",
+    "updated_at": "2020-09-29T14:07:59.789Z"
+    },
+    {
+    "id": 3,
+    "name": "Azaelea",
+    "color": "White",
+    "image": "azaelea-white.png",
+    "description": "In Japan and China, azaeleas symbolize remembrance of home and the desire to return and family. Victorians saw these flowers as a symbol of temperance and elegance. Though due to their toxicity, azaeleas delivered in a black vase once symbolized a death threat.",
+    "color_description": "Civility, restraint, purity",
+    "created_at": "2020-09-29T14:07:59.796Z",
+    "updated_at": "2020-09-29T14:07:59.796Z"
+    },
+    {
+    "id": 4,
+    "name": "Azaelea",
+    "color": "Yellow",
+    "image": "azaelea-yellow.png",
+    "description": "In Japan and China, azaeleas symbolize remembrance of home and the desire to return and family. Victorians saw these flowers as a symbol of temperance and elegance. Though due to their toxicity, azaeleas delivered in a black vase once symbolized a death threat.",
+    "color_description": "Friendship, family",
+    "created_at": "2020-09-29T14:07:59.803Z",
+    "updated_at": "2020-09-29T14:07:59.803Z"
+    },
+    {
+    "id": 5,
+    "name": "Camellia",
+    "color": "Red",
+    "image": "camellia-red.png",
+    "description": "In China, camellias are lucky symbols for the Chinese New Year. Often seen as symbols of love, affection, and admiration.",
+    "color_description": "Love, passion, deep desire",
+    "created_at": "2020-09-29T14:07:59.809Z",
+    "updated_at": "2020-09-29T14:07:59.809Z"
+    },
+    {
+    "id": 6,
+    "name": "Camellia",
+    "color": "Pink",
+    "image": "camellia-pink",
+    "description": "In China, camellias are lucky symbols for the Chinese New Year.\n    Often seen as symbols of love, affection, and admiration.",
+    "color_description": "Longing for someone, given to someone who's missed",
+    "created_at": "2020-09-29T14:07:59.841Z",
+    "updated_at": "2020-09-29T14:07:59.841Z"
+    },
+    {
+    "id": 7,
+    "name": "Camellia",
+    "color": "White",
+    "image": "camellia-white.png",
+    "description": "In China, camellias are lucky symbols for the Chinese New Year.\n    Often seen as symbols of love, affection, and admiration.",
+    "color_description": "Adoration, given to someone well-liked",
+    "created_at": "2020-09-29T14:07:59.848Z",
+    "updated_at": "2020-09-29T14:07:59.848Z"
+    },
+    {
+    "id": 8,
+    "name": "Carnation",
+    "color": "Pink",
+    "image": "carnation-pink.png",
+    "description": "A popular wedding flower, carnations symbolize fascination, distinction, and love.",
+    "color_description": "Gratitude",
+    "created_at": "2020-09-29T14:07:59.855Z",
+    "updated_at": "2020-09-29T14:07:59.855Z"
+    },
+    {
+    "id": 9,
+    "name": "Carnation",
+    "color": "Purple",
+    "image": "carnation-purple.png",
+    "description": "A popular wedding flower, carnations symbolize fascination, distinction, and love.",
+    "color_description": "Capriciousness, the flower of choice for funerals in France",
+    "created_at": "2020-09-29T14:07:59.863Z",
+    "updated_at": "2020-09-29T14:07:59.863Z"
+    },
+    {
+    "id": 10,
+    "name": "Carnation",
+    "color": "Red",
+    "image": "carnation-red.png",
+    "description": "A popular wedding flower, carnations symbolize fascination, distinction, and love.",
+    "color_description": "Love, affection",
+    "created_at": "2020-09-29T14:07:59.892Z",
+    "updated_at": "2020-09-29T14:07:59.892Z"
+    },
+    {
+    "id": 11,
+    "name": "Carnation",
+    "color": "White",
+    "image": "carnation-white.png",
+    "description": "A popular wedding flower, carnations symbolize fascination, distinction, and love.",
+    "color_description": "Purity, luck",
+    "created_at": "2020-09-29T14:07:59.899Z",
+    "updated_at": "2020-09-29T14:07:59.899Z"
+    },
+    {
+    "id": 12,
+    "name": "Carnation",
+    "color": "Yellow",
+    "image": "carnation-yellow.png",
+    "description": "A popular wedding flower, carnations symbolize fascination, distinction, and love.",
+    "color_description": "Disappointment, rejection",
+    "created_at": "2020-09-29T14:07:59.908Z",
+    "updated_at": "2020-09-29T14:07:59.908Z"
+    },
+    {
+    "id": 13,
+    "name": "Cherry Blossom",
+    "color": "Pink",
+    "image": "cherry-blossom.png",
+    "description": "In Japan, the cherry blossom holds strong symbolism for spring and renewal, as well as the fleeting nature of life due to the short period of time cherry blossoms bloom. It also symbolizes kindness, gentleness, feminine beauty, and mono no aware.",
+    "color_description": "",
+    "created_at": "2020-09-29T14:07:59.939Z",
+    "updated_at": "2020-09-29T14:07:59.939Z"
+    },
+    {
+    "id": 14,
+    "name": "Chyrsanthemum",
+    "color": "Red",
+    "image": "chrys-red.png",
+    "description": "Generally symbolizes longevity, fidelity, joy, and optimism, many cultures had different symbolism associated with Chrysanthemums. The Victorians believed this flower conveyed friendship and well-wishing. The Buddhists used chrysanthemums as an offering due to their powerful Yang energy. The Chinese offered these flowers to the elderly to promote a long life and good luck in the home and Belgium and Austria almost exclusively use them as a memorial flower to honor loved ones who've passed.",
+    "color_description": "Love, deep passion",
+    "created_at": "2020-09-29T14:07:59.944Z",
+    "updated_at": "2020-09-29T14:07:59.944Z"
+    },
+    {
+    "id": 15,
+    "name": "Chyrsanthemum",
+    "color": "White",
+    "image": "chrys-white.png",
+    "description": "Generally symbolizes longevity, fidelity, joy, and optimism, many cultures had different symbolism associated with Chrysanthemums. The Victorians believed this flower conveyed friendship and well-wishing. The Buddhists used chrysanthemums as an offering due to their powerful Yang energy. The Chinese offered these flowers to the elderly to promote a long life and good luck in the home and Belgium and Austria almost exclusively use them as a memorial flower to honor loved ones who've passed.",
+    "color_description": "Loyalty, honesty",
+    "created_at": "2020-09-29T14:07:59.952Z",
+    "updated_at": "2020-09-29T14:07:59.952Z"
+    },
+    {
+    "id": 16,
+    "name": "Chyrsanthemum",
+    "color": "Yellow",
+    "image": "chrys-yellow.png",
+    "description": "Generally symbolizes longevity, fidelity, joy, and optimism, many cultures had different symbolism associated with Chrysanthemums. The Victorians believed this flower conveyed friendship and well-wishing. The Buddhists used chrysanthemums as an offering due to their powerful Yang energy. The Chinese offered these flowers to the elderly to promote a long life and good luck in the home and Belgium and Austria almost exclusively use them as a memorial flower to honor loved ones who've passed.",
+    "color_description": "Neglected love, sorrow",
+    "created_at": "2020-09-29T14:07:59.959Z",
+    "updated_at": "2020-09-29T14:07:59.959Z"
+    },
+    {
+    "id": 17,
+    "name": "Chyrsanthemum",
+    "color": "Purple",
+    "image": "chrys-purple.png",
+    "description": "Generally symbolizes longevity, fidelity, joy, and optimism, many cultures had different symbolism associated with Chrysanthemums. The Victorians believed this flower conveyed friendship and well-wishing. The Buddhists used chrysanthemums as an offering due to their powerful Yang energy. The Chinese offered these flowers to the elderly to promote a long life and good luck in the home and Belgium and Austria almost exclusively use them as a memorial flower to honor loved ones who've passed.",
+    "color_description": "Wish to get well",
+    "created_at": "2020-09-29T14:07:59.994Z",
+    "updated_at": "2020-09-29T14:07:59.994Z"
+    },
+    {
+    "id": 18,
+    "name": "Hyacinth",
+    "color": "Blue",
+    "image": "hyacinth-blue.png",
+    "description": "These flower clusters represent sincerity, rebirth, spring, and athleticism, specifically associated with sports by the Victorians based on the Greek myth of Hyacinthus.",
+    "color_description": "Constancy",
+    "created_at": "2020-09-29T14:08:00.038Z",
+    "updated_at": "2020-09-29T14:08:00.038Z"
+    },
+    {
+    "id": 19,
+    "name": "Hyacinth",
+    "color": "Pink",
+    "image": "hyacinth-pink.png",
+    "description": "These flower clusters represent sincerity, rebirth, spring, and athleticism, specifically associated with sports by the Victorians based on the Greek myth of Hyacinthus.",
+    "color_description": "Playfulness, happiness in life",
+    "created_at": "2020-09-29T14:08:00.044Z",
+    "updated_at": "2020-09-29T14:08:00.044Z"
+    },
+    {
+    "id": 20,
+    "name": "Hyacinth",
+    "color": "Purple",
+    "image": "hyacinth-purple.png",
+    "description": "These flower clusters represent sincerity, rebirth, spring, and athleticism, specifically associated with sports by the Victorians based on the Greek myth of Hyacinthus.",
+    "color_description": "Sorrow, forgiveness",
+    "created_at": "2020-09-29T14:08:00.054Z",
+    "updated_at": "2020-09-29T14:08:00.054Z"
+    },
+    {
+    "id": 21,
+    "name": "Hyacinth",
+    "color": "White",
+    "image": "hyacinth-white.png",
+    "description": "These flower clusters represent sincerity, rebirth, spring, and athleticism, specifically associated with sports by the Victorians based on the Greek myth of Hyacinthus.",
+    "color_description": "Purity, innocence, praying for someone",
+    "created_at": "2020-09-29T14:08:00.063Z",
+    "updated_at": "2020-09-29T14:08:00.063Z"
+    },
+    {
+    "id": 22,
+    "name": "Hyacinth",
+    "color": "Yellow",
+    "image": "hyacinth-yellow.png",
+    "description": "These flower clusters represent sincerity, rebirth, spring, and athleticism, specifically associated with sports by the Victorians based on the Greek myth of Hyacinthus.",
+    "color_description": "Jealousy",
+    "created_at": "2020-09-29T14:08:00.093Z",
+    "updated_at": "2020-09-29T14:08:00.093Z"
+    },
+    {
+    "id": 23,
+    "name": "Hydrangea",
+    "color": "Blue",
+    "image": "hydran-blue.png",
+    "description": "Hydrangeas have connections to strong emotions in their symbolism, such as giving them to love interests when rejected to show that they are cold hearted. The Victorians specifically associated the flower with vanity and boastfulness. However, the Japanese use this flower to convey a heartfelt apology and gratitude for understanding.",
+    "color_description": "Frigidity, apology",
+    "created_at": "2020-09-29T14:08:00.102Z",
+    "updated_at": "2020-09-29T14:08:00.102Z"
+    },
+    {
+    "id": 24,
+    "name": "Hydrangea",
+    "color": "Pink",
+    "image": "hydran-pink.png",
+    "description": "Hydrangeas have connections to strong emotions in their symbolism, such as giving them to love interests when rejected to show that they are cold hearted. The Victorians specifically associated the flower with vanity and boastfulness. However, the Japanese use this flower to convey a heartfelt apology and gratitude for understanding.",
+    "color_description": "Heartfelt emotion",
+    "created_at": "2020-09-29T14:08:00.109Z",
+    "updated_at": "2020-09-29T14:08:00.109Z"
+    },
+    {
+    "id": 25,
+    "name": "Hydrangea",
+    "color": "Purple",
+    "image": "hydran-purple.png",
+    "description": "Hydrangeas have connections to strong emotions in their symbolism, such as giving them to love interests when rejected to show that they are cold hearted. The Victorians specifically associated the flower with vanity and boastfulness. However, the Japanese use this flower to convey a heartfelt apology and gratitude for understanding.",
+    "color_description": "Desire to deeply understand someone",
+    "created_at": "2020-09-29T14:08:00.141Z",
+    "updated_at": "2020-09-29T14:08:00.141Z"
+    },
+    {
+    "id": 26,
+    "name": "Hydrangea",
+    "color": "White",
+    "image": "hydran-white.png",
+    "description": "Hydrangeas have connections to strong emotions in their symbolism, such as giving them to love interests when rejected to show that they are cold hearted. The Victorians specifically associated the flower with vanity and boastfulness. However, the Japanese use this flower to convey a heartfelt apology and gratitude for understanding.",
+    "color_description": "Boasting, vanity",
+    "created_at": "2020-09-29T14:08:00.146Z",
+    "updated_at": "2020-09-29T14:08:00.146Z"
+    },
+    {
+    "id": 27,
+    "name": "Lily",
+    "color": "Orange",
+    "image": "lily-orange.png",
+    "description": "In Greece, lilies represent motherhood and rebirth. In China, lilies symbolize 100 years of love and good luck, hence why they're often used at weddings.",
+    "color_description": "Confidence, pride, wealth",
+    "created_at": "2020-09-29T14:08:00.155Z",
+    "updated_at": "2020-09-29T14:08:00.155Z"
+    },
+    {
+    "id": 28,
+    "name": "Lily",
+    "color": "Pink",
+    "image": "lily-pink.png",
+    "description": "In Greece, lilies represent motherhood and rebirth. In China, lilies symbolize 100 years of love and good luck, hence why they're often used at weddings.",
+    "color_description": "Prosperity, abundance",
+    "created_at": "2020-09-29T14:08:00.163Z",
+    "updated_at": "2020-09-29T14:08:00.163Z"
+    },
+    {
+    "id": 29,
+    "name": "Lily",
+    "color": "Red",
+    "image": "lily-red.png",
+    "description": "In Greece, lilies represent motherhood and rebirth. In China, lilies symbolize 100 years of love and good luck, hence why they're often used at weddings.",
+    "color_description": "Passion",
+    "created_at": "2020-09-29T14:08:00.193Z",
+    "updated_at": "2020-09-29T14:08:00.193Z"
+    },
+    {
+    "id": 30,
+    "name": "Lily",
+    "color": "White",
+    "image": "lily-white.png",
+    "description": "In Greece, lilies represent motherhood and rebirth. In China, lilies symbolize 100 years of love and good luck, hence why they're often used at weddings.",
+    "color_description": "Purity, virtue",
+    "created_at": "2020-09-29T14:08:00.201Z",
+    "updated_at": "2020-09-29T14:08:00.201Z"
+    },
+    {
+    "id": 31,
+    "name": "Lily",
+    "color": "Yellow",
+    "image": "lily-yellow.png",
+    "description": "In Greece, lilies represent motherhood and rebirth. In China, lilies symbolize 100 years of love and good luck, hence why they're often used at weddings.",
+    "color_description": "Thankfulness, the desire for enjoyment",
+    "created_at": "2020-09-29T14:08:00.209Z",
+    "updated_at": "2020-09-29T14:08:00.209Z"
+    },
+    {
+    "id": 32,
+    "name": "Lotus",
+    "color": "Blue",
+    "image": "lotus-blue.png",
+    "description": "Symbolizing rebirth and triumph over obstacles, lotus flowers are common in religions for divinity and virtues. In Buddhisim, the lotus flower symbolizes the journey of life, it's struggles, and practicing non-attachment. In Hinduism, it symbolizes divinity, purity, enlightment, and the disconnect with worldly things.",
+    "color_description": "The spirit's conquest over senses",
+    "created_at": "2020-09-29T14:08:00.238Z",
+    "updated_at": "2020-09-29T14:08:00.238Z"
+    },
+    {
+    "id": 33,
+    "name": "Lotus",
+    "color": "Pink",
+    "image": "lotus-pink.png",
+    "description": "Symbolizing rebirth and triumph over obstacles, lotus flowers are common in religions for divinity and virtues. In Buddhisim, the lotus flower symbolizes the journey of life, it's struggles, and practicing non-attachment. In Hinduism, it symbolizes divinity, purity, enlightment, and the disconnect with worldly things.",
+    "color_description": "Perfection, Buddha",
+    "created_at": "2020-09-29T14:08:00.248Z",
+    "updated_at": "2020-09-29T14:08:00.248Z"
+    },
+    {
+    "id": 34,
+    "name": "Lotus",
+    "color": "White",
+    "image": "lotus-white.png",
+    "description": "Symbolizing rebirth and triumph over obstacles, lotus flowers are common in religions for divinity and virtues. In Buddhisim, the lotus flower symbolizes the journey of life, it's struggles, and practicing non-attachment. In Hinduism, it symbolizes divinity, purity, enlightment, and the disconnect with worldly things.",
+    "color_description": "Purity of mind, evolved spirit",
+    "created_at": "2020-09-29T14:08:00.254Z",
+    "updated_at": "2020-09-29T14:08:00.254Z"
+    },
+    {
+    "id": 35,
+    "name": "Lotus",
+    "color": "Yellow",
+    "image": "lotus-yellow.png",
+    "description": "Symbolizing rebirth and triumph over obstacles, lotus flowers are common in religions for divinity and virtues. In Buddhisim, the lotus flower symbolizes the journey of life, it's struggles, and practicing non-attachment. In Hinduism, it symbolizes divinity, purity, enlightment, and the disconnect with worldly things.",
+    "color_description": "Acheiving enlightenment",
+    "created_at": "2020-09-29T14:08:00.262Z",
+    "updated_at": "2020-09-29T14:08:00.262Z"
+    },
+    {
+    "id": 36,
+    "name": "Peony",
+    "color": "Red",
+    "image": "peony-red.png",
+    "description": "Peonies are considered one of the most popular flowers for weddings, symbolizing happiness in marriage, good fortune, and compassion. In China and Japan, red peonies specifically are associated with nobility, honor and wealth.",
+    "color_description": "Love, passion, honor, respect",
+    "created_at": "2020-09-29T14:08:00.292Z",
+    "updated_at": "2020-09-29T14:08:00.292Z"
+    },
+    {
+    "id": 37,
+    "name": "Peony",
+    "color": "Pink",
+    "image": "peony-pink.png",
+    "description": "Peonies are considered one of the most popular flowers for weddings, symbolizing happiness in marriage, good fortune, and compassion. In China and Japan, red peonies specifically are associated with nobility, honor and wealth.",
+    "color_description": "Romance, love, weddings",
+    "created_at": "2020-09-29T14:08:00.297Z",
+    "updated_at": "2020-09-29T14:08:00.297Z"
+    },
+    {
+    "id": 38,
+    "name": "Peony",
+    "color": "White",
+    "image": "peony-white.png",
+    "description": "Peonies are considered one of the most popular flowers for weddings, symbolizing happiness in marriage, good fortune, and compassion. In China and Japan, red peonies specifically are associated with nobility, honor and wealth.",
+    "color_description": "Beauty and shame, can convey an apology for embarrassment",
+    "created_at": "2020-09-29T14:08:00.306Z",
+    "updated_at": "2020-09-29T14:08:00.306Z"
+    },
+    {
+    "id": 39,
+    "name": "Poppy",
+    "color": "Blue",
+    "image": "poppy-blue.png",
+    "description": "Poppies convey contrasting meanings in different cultures. In Egyptian and Greek cultures, poppies symbolize restful sleep and recovery due to the medicinal properties that assist in sleeping. similarly, the Victorians poppies conveyed consolation for a loss in the family, deep sleep, and extravagance. For East Asia, red poppies symbolize success, beauty, and love while white poppies mean death. In contrast, Western cultures use red poppies symbolize death, specifically remembrance for veterans who've passed and white poppies convey peaceful rest.",
+    "color_description": "Imagination, liveliness, luxury, success",
+    "created_at": "2020-09-29T14:08:00.339Z",
+    "updated_at": "2020-09-29T14:08:00.339Z"
+    },
+    {
+    "id": 40,
+    "name": "Poppy",
+    "color": "Red",
+    "image": "poppy-red.png",
+    "description": "Poppies convey contrasting meanings in different cultures. In Egyptian and Greek cultures, poppies symbolize restful sleep and recovery due to the medicinal properties that assist in sleeping. similarly, the Victorians poppies conveyed consolation for a loss in the family, deep sleep, and extravagance. For East Asia, red poppies symbolize success, beauty, and love while white poppies mean death. In contrast, Western cultures use red poppies symbolize death, specifically remembrance for veterans who've passed and white poppies convey peaceful rest.",
+    "color_description": "Death, consolation in the west, success, love and wealth in the east",
+    "created_at": "2020-09-29T14:08:00.343Z",
+    "updated_at": "2020-09-29T14:08:00.343Z"
+    },
+    {
+    "id": 41,
+    "name": "Poppy",
+    "color": "White",
+    "image": "poppy-white.png",
+    "description": "Poppies convey contrasting meanings in different cultures. In Egyptian and Greek cultures, poppies symbolize restful sleep and recovery due to the medicinal properties that assist in sleeping. similarly, the Victorians poppies conveyed consolation for a loss in the family, deep sleep, and extravagance. For East Asia, red poppies symbolize success, beauty, and love while white poppies mean death. In contrast, Western cultures use red poppies symbolize death, specifically remembrance for veterans who've passed and white poppies convey peaceful rest.",
+    "color_description": "Funerals, memoirs in the east, peaceful rest in the west",
+    "created_at": "2020-09-29T14:08:00.398Z",
+    "updated_at": "2020-09-29T14:08:00.398Z"
+    },
+    {
+    "id": 42,
+    "name": "Rose",
+    "color": "Black",
+    "image": "rose-black.png",
+    "description": "Roses are the most popular flower as far as flower language goes, even going so far as to have different meanings depending on the number of roses given during courting.",
+    "color_description": "Death, mourning, new beginnings, major change",
+    "created_at": "2020-09-29T14:08:00.405Z",
+    "updated_at": "2020-09-29T14:08:00.405Z"
+    },
+    {
+    "id": 43,
+    "name": "Rose",
+    "color": "Orange",
+    "image": "rose-orange.png",
+    "description": "Roses are the most popular flower as far as flower language goes, even going so far as to have different meanings depending on the number of roses given during courting.",
+    "color_description": "Enthusiasm, passion, energy, admiration",
+    "created_at": "2020-09-29T14:08:00.412Z",
+    "updated_at": "2020-09-29T14:08:00.412Z"
+    },
+    {
+    "id": 44,
+    "name": "Rose",
+    "color": "Pink",
+    "image": "rose-pink.png",
+    "description": "Roses are the most popular flower as far as flower language goes, even going so far as to have different meanings depending on the number of roses given during courting.",
+    "color_description": "Gratitude, elegance, refinement, appreciation",
+    "created_at": "2020-09-29T14:08:00.443Z",
+    "updated_at": "2020-09-29T14:08:00.443Z"
+    },
+    {
+    "id": 45,
+    "name": "Rose",
+    "color": "Red",
+    "image": "rose-red.png",
+    "description": "Roses are the most popular flower as far as flower language goes, even going so far as to have different meanings depending on the number of roses given during courting.",
+    "color_description": "Love, romance, desire",
+    "created_at": "2020-09-29T14:08:00.450Z",
+    "updated_at": "2020-09-29T14:08:00.450Z"
+    },
+    {
+    "id": 46,
+    "name": "Rose",
+    "color": "White",
+    "image": "rose-white.png",
+    "description": "Roses are the most popular flower as far as flower language goes, even going so far as to have different meanings depending on the number of roses given during courting.",
+    "color_description": "Innocence, purity",
+    "created_at": "2020-09-29T14:08:00.458Z",
+    "updated_at": "2020-09-29T14:08:00.458Z"
+    },
+    {
+    "id": 47,
+    "name": "Rose",
+    "color": "Yellow",
+    "image": "rose-yellow.png",
+    "description": "Roses are the most popular flower as far as flower language goes, even going so far as to have different meanings depending on the number of roses given during courting.",
+    "color_description": "Friendship, welcome back, remember me, once used to convey jealousy",
+    "created_at": "2020-09-29T14:08:00.494Z",
+    "updated_at": "2020-09-29T14:08:00.494Z"
+    },
+    {
+    "id": 48,
+    "name": "Sunflower",
+    "color": "Yellow",
+    "image": "sunflower.png",
+    "description": "The flower of the sun, often associated with happiness, sunshine, optimism, and good fortune. In China, this bright flower symbolizes longevity and steadfast loyalty.",
+    "color_description": " ",
+    "created_at": "2020-09-29T14:08:00.506Z",
+    "updated_at": "2020-09-29T14:08:00.506Z"
+    },
+    {
+    "id": 49,
+    "name": "Tulip",
+    "color": "Pink",
+    "image": "tulip-pink.png",
+    "description": "Due to it's beautiful yet simple appearance, tulips are considered the symbol for perfect love, originating in Turkey.",
+    "color_description": "Happiness, confidence",
+    "created_at": "2020-09-29T14:08:00.539Z",
+    "updated_at": "2020-09-29T14:08:00.539Z"
+    },
+    {
+    "id": 50,
+    "name": "Tulip",
+    "color": "Purple",
+    "image": "tulip-purple.png",
+    "description": "Due to it's beautiful yet simple appearance, tulips are considered the symbol for perfect love, originating in Turkey.",
+    "color_description": "Royalty, leadership",
+    "created_at": "2020-09-29T14:08:00.547Z",
+    "updated_at": "2020-09-29T14:08:00.547Z"
+    },
+    {
+    "id": 51,
+    "name": "Tulip",
+    "color": "Red",
+    "image": "tulip-red.png",
+    "description": "Due to it's beautiful yet simple appearance, tulips are considered the symbol for perfect love, originating in Turkey.",
+    "color_description": "True love, trust",
+    "created_at": "2020-09-29T14:08:00.555Z",
+    "updated_at": "2020-09-29T14:08:00.555Z"
+    },
+    {
+    "id": 52,
+    "name": "Tulip",
+    "color": "White",
+    "image": "tulip-white.png",
+    "description": "Due to it's beautiful yet simple appearance, tulips are considered the symbol for perfect love, originating in Turkey.",
+    "color_description": "Forgiveness, worthiness",
+    "created_at": "2020-09-29T14:08:00.562Z",
+    "updated_at": "2020-09-29T14:08:00.562Z"
+    },
+    {
+    "id": 53,
+    "name": "Tulip",
+    "color": "Yellow",
+    "image": "tulip-yellow.png",
+    "description": "Due to it's beautiful yet simple appearance, tulips are considered the symbol for perfect love, originating in Turkey.",
+    "color_description": "Once symbolized hopeless love, now conveys cheerful thoughts",
+    "created_at": "2020-09-29T14:08:00.642Z",
+    "updated_at": "2020-09-29T14:08:00.642Z"
+    }
+    ]
