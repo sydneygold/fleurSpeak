@@ -7,7 +7,7 @@ body {
   min-height: 100vh;
   margin: 0px; }
 
-#page {
+#content {
   display: flex;
   width: 100%; }
 
@@ -34,6 +34,9 @@ h1 {
 
 #flower-vase {
   display: flex;
+  position: absolute;
+  left: 45%;
+  top: 26%;
   justify-content: center;
   align-items: center;
   z-index: 2;

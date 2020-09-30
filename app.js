@@ -1,30 +1,34 @@
-import flowerList from './pages/flowers.js'
+import clearContent from './helperFunctions/clearContent.js'
+import listFlowers from './pages/flowers.js'
 
 
-const flowerURL = 'https://fleur-speak-backend.herokuapp.com/flowers'
+const main = document.querySelector('#content')
+const flowerURL = 'http://localhost:3000/flowers'
+
 const routes = {
-    '/': "Home",
-    '/flowers': flowerList
+    '/flowers': listFlowers,
+    '/': clearContent
+    // '/:flower': flowerList
 }
+
+let appData
 
 function routeChange(event){
     const path = window.location.hash.split('#')[1] || '/'
     const page = routes[path]
-    console.log(page)
-    
-    if(page){
-    }
-    else {
-        `<h1>404 ERROR</h1>`
-    }
+
+    main.innerHTML = page(appData)
 }
 
 function getData(){
     fetch(flowerURL)
     .then(response => response.json())
-    .then(flowers => console.log(flowers))
+    .then(results => appData = results)
+    .then(routeChange)
 }
 
 
-window.addEventListener('hashchange', routeChange)
+
+
 window.addEventListener('load', getData)
+window.addEventListener('hashchange', routeChange)
