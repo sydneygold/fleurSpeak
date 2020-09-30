@@ -90,3 +90,20 @@ a {
 a.visited {
     color: #f3f3f1;
 }
+
+#flower-list {
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    color: #605c52;
+    font-weight: 343;
+    font-style: italic;
+    display: flex;
+    flex-flow: column;
+    height: 400px;
+    width: 274px;
+    justify-content: flex-start;
+    position: absolute;
+    top: 366px;
+    left: -21px;
+    line-height: 28px;
+}
