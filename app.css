@@ -56,7 +56,8 @@ img {
   flex-flow: column;
   height: 430px;
   position: absolute;
-  top: 311px;
+  top: 107px;
+  left: 36px;
   margin: 17px;
   align-items: flex-start;
   font-size: 20px;
@@ -69,12 +70,24 @@ a {
   color: #605c52;
   font-weight: 343;
   font-style: italic;
+  text-decoration: none;
+  padding: 25px; }
+
+#home {
+  padding: 0px;
+  position: relative;
+  left: 5px;
+  color: #f9f8f6;
   text-decoration: underline;
   text-decoration-style: dashed;
   text-decoration-color: #b5d7a7; }
 
-a.visited {
-  color: #f3f3f1; }
+#choose-flower {
+  padding: 3px;
+  color: #f9f8f6;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: #b5d7a7; }
 
 #flower-list {
   font-family: 'Montserrat', sans-serif;
@@ -88,6 +101,42 @@ a.visited {
   width: 274px;
   justify-content: flex-start;
   position: absolute;
-  top: 366px;
-  left: -21px;
-  line-height: 28px; }
+  top: 166px;
+  left: -7px;
+  line-height: 36px; }
+
+#color-select {
+  position: absolute;
+  left: 31%;
+  top: 72%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+#description {
+  font-family: 'Montserrat', sans-serif;
+  color: #605c52;
+  font-weight: 343;
+  font-style: italic;
+  display: flex;
+  height: 400px;
+  position: absolute;
+  top: 80%;
+  left: 28%;
+  line-height: 1.8;
+  text-align-last: left;
+  width: 760px; }
+
+#color-description {
+  font-family: 'Montserrat', sans-serif;
+  color: #605c52;
+  font-weight: 343;
+  font-style: italic;
+  display: flex;
+  height: 400px;
+  position: absolute;
+  top: 95%;
+  left: 28%;
+  line-height: 1.8;
+  text-align-last: left;
+  width: 760px; }
