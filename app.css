@@ -107,8 +107,8 @@ a {
 
 #color-select {
   position: absolute;
-  left: 31%;
-  top: 72%;
+  left: 40vw;
+  top: 83vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center; }
@@ -121,13 +121,13 @@ a {
   display: flex;
   height: 400px;
   position: absolute;
-  top: 80%;
-  left: 28%;
+  top: 92vh;
+  left: 16vw;
   line-height: 1.8;
   text-align-last: left;
   width: 760px; }
 
-#color-description {
+#color-info {
   font-family: 'Montserrat', sans-serif;
   color: #605c52;
   font-weight: 343;
@@ -135,8 +135,8 @@ a {
   display: flex;
   height: 400px;
   position: absolute;
-  top: 95%;
-  left: 28%;
+  top: 105vh;
+  left: 16vw;
   line-height: 1.8;
   text-align-last: left;
   width: 760px; }

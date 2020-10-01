@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type="module" src="./app.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app.css">
@@ -8,51 +9,26 @@
 </head>
 <body>
     <header id="header-container">
-        <h1>Fleur Speak</h1>
+        <h1><a href="#">Fleur Speak</a></h1>
     </header>
     
-    <section id="flower-vase">
-        <img id="flower-image" src="testing-fleur.png" alt="flower">
-    </section>
-
     <nav id="flower-selection">
-        <a id="home" href="/"> Home</a>
+        <a id="home" href="#/"> Home</a>
         <a id="choose-flower" href="#/flowers">Choose your flower</a>
     </nav>
 
+    <section id="flower-vase">
+        <img id="flower-image" src="testing-fleur.png" alt="flower">
+    </section>
+    
     <main id="content">
-        <ul id="flower-list">
-            <li><a href="">Azaelea</a></li>
-            <li><a href="">Camellia</a></li>
-            <li><a href="">Carnation</a></li>
-            <li><a href="">Cherry Blossom</a></li>
-            <li><a href="">Chrysanthemum</a></li>
-            <li><a href="">Hyacinth</a></li>
-            <li><a href="">Hydrangea</a></li>
-            <li><a href="">Lily</a></li>
-            <li><a href="">Lotus</a></li>
-            <li><a href="">Peony</a></li>
-            <li><a href="">Poppy</a></li>
-            <li><a href="">Rose</a></li>
-            <li><a href="">Sunflower</a></li>
-            <li><a href="">Tulip</a></li>
-        </ul>
-        <nav id="color-select">
-            <a href="">black</a>
-            <a href="">yellow</a>
-            <a href="">orange</a>
-            <a href="">red</a>
-            <a href="">pink</a>
-            <a href="">purple</a>
-            <a href="">white</a>
-        </nav>
         <p id="description">
-            "Peonies are considered one of the most popular flowers for weddings, symbolizing happiness in marriage, good fortune, and compassion. In China and Japan, red peonies specifically are associated with nobility, honor and wealth."
+        
         </p>
-        <p id="color-description">
-            "Love, passion, honor, respect"
+        
+        <p id="color-info">
+            
         </p>
     </main>
-    <script type="module" src="app.js"></script>
 </body>
 </html>
