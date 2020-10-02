@@ -25,6 +25,7 @@ const showHyacinths = (flowerData) => {
     </ul>
 
     <nav id="color-select">
+        <p id="choose-color">Choose a color</p>
         <a href="#/hyacinths?color=blue">blue</a>
         <a href="#/hyacinths?color=pink">pink</a>
         <a href="#/hyacinths?color=purple">purple</a>
@@ -56,7 +57,7 @@ function changeImage(flowerData){
     flowerImage.src = colors[color] || colors.pink
     flowerData.find(flowers => {
         if(flowers.name === "Hyacinth" && flowers.color.toLowerCase() === color)
-        return info.textContent = flowers.color_description
+        return info.textContent = "-" + flowers.color_description
     })
     
 }

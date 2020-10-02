@@ -25,6 +25,7 @@ const showAzaeleas = (flowerData) => {
     </ul>
 
         <nav id="color-select">
+            <p id="choose-color">Choose a color</p>
             <a href="#/azaeleas?color=yellow">yellow</a>
             <a href="#/azaeleas?color=red">red</a>
             <a href="#/azaeleas?color=purple">purple</a>
@@ -34,6 +35,7 @@ const showAzaeleas = (flowerData) => {
         <p id="description">
             In Japan and China, azaeleas symbolize remembrance of home and the desire to return and family. Victorians saw these flowers as a symbol of temperance and elegance. Though due to their toxicity, azaeleas delivered in a black vase once symbolized a death threat.
         </p>
+
     `)
 
 }
@@ -54,7 +56,7 @@ function changeImage(flowerData){
     flowerImage.src = colors[color] || colors.yellow
     flowerData.find(flowers => {
         if(flowers.name === "Azaelea" && flowers.color.toLowerCase() === color)
-        return info.textContent = flowers.color_description
+        return info.textContent = "-" + flowers.color_description
     })
     
 }

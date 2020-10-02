@@ -59,5 +59,6 @@ const getData = () => {
         .then(routeChanger)
 }
 
+
 window.addEventListener('load', getData)
 window.addEventListener('hashchange', routeChanger)

@@ -25,6 +25,7 @@ const showPeonies = (flowerData) => {
     </ul>
 
     <nav id="color-select">
+    <p id="choose-color">Choose a color</p>
         <a href="#/peonies?color=red">red</a>
         <a href="#/peonies?color=pink">pink</a>
         <a href="#/peonies?color=white">white</a>
@@ -53,7 +54,7 @@ function changeImage(flowerData){
     flowerImage.src = colors[color] || colors.white
     flowerData.find(flowers => {
         if(flowers.name === "Peony" && flowers.color.toLowerCase() === color)
-        return info.textContent = flowers.color_description
+        return info.textContent = "-" + flowers.color_description
     })
     
 }

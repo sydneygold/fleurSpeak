@@ -25,6 +25,7 @@ const showTulips = (flowerData) => {
     </ul>
 
     <nav id="color-select">
+    <p id="choose-color">Choose a color</p>
     <a href="#/tulips?color=red">red</a>
     <a href="#/tulips?color=white">white</a>
     <a href="#/tulips?color=purple">purple</a>
@@ -57,7 +58,7 @@ function changeImage(flowerData){
     flowerImage.src = colors[color] || colors.yellow
     flowerData.find(flowers => {
         if(flowers.name === "Tulip" && flowers.color.toLowerCase() === color)
-        return info.textContent = flowers.color_description
+        return info.textContent = "-" + flowers.color_description
     })
     
 }
