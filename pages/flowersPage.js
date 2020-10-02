@@ -1,5 +1,8 @@
 
-const FlowerPage = (flowerData) => {
+const FlowerPage = () => {
+    const clearColorDescript = document.querySelector('#color-info')
+    clearColorDescript.textContent = ""
+
     return (`
     <ul id="flower-list">
         <li><a href="#/azaeleas">Azaelea</a></li>

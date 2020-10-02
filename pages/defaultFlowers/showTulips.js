@@ -1,30 +1,47 @@
 const showTulips = (flowerData) => {
-    window.addEventListener('hashchange', changeImage)
-    const defaultFlower = document.querySelector('img')
-    defaultFlower.src = '../tulips/tulip-yellow.png'
+    window.addEventListener('hashchange', changeImage(flowerData))
     
     return(`
     <nav id="flower-selection">
-        <a id="home" href="/"> Home</a>
-        <a id="choose-flower" href="#/flowers">Choose your flower</a>
+    <a id="home" href="/"> Home</a>
+    <a id="choose-flower" href="#/flowers">Choose your flower</a>
     </nav>
+    
+    <ul id="flower-list">
+        <li><a href="#/azaeleas">Azaelea</a></li>
+        <li><a href="#/camellias">Camellia</a></li>
+        <li><a href="#/carnations">Carnation</a></li>
+        <li><a href="#/cherryblossoms">Cherry Blossom</a></li>
+        <li><a href="#/mums">Chrysanthemum</a></li>
+        <li><a href="#/hyacinths">Hyacinth</a></li>
+        <li><a href="#/hydrangeas">Hydrangea</a></li>
+        <li><a href="#/lilies">Lily</a></li>
+        <li><a href="#/lotus">Lotus</a></li>
+        <li><a href="#/peonies">Peony</a></li>
+        <li><a href="#/poppies">Poppy</a></li>
+        <li><a href="#/roses">Rose</a></li>
+        <li><a href="#/sunflowers">Sunflower</a></li>
+        <li><a href="#/tulips">Tulip</a></li>
+    </ul>
 
-        <nav id="color-select">
-            <a href="#/tulips?color=red">red</a>
-            <a href="#/tulips?color=white">white</a>
-            <a href="#/tulips?color=purple">purple</a>
-            <a href="#/tulips?color=pink">pink</a>
-            <a href="#/tulips?color=yellow">yellow</a>
-            </nav>
+    <nav id="color-select">
+    <a href="#/tulips?color=red">red</a>
+    <a href="#/tulips?color=white">white</a>
+    <a href="#/tulips?color=purple">purple</a>
+    <a href="#/tulips?color=pink">pink</a>
+    <a href="#/tulips?color=yellow">yellow</a>
+    </nav>
+    
+    <p id="description">
+    Due to it's beautiful yet simple appearance, tulips are considered the symbol for perfect love, originating in Turkey.        
+    </p>
 
-        <p id="description">
-            Due to it's beautiful yet simple appearance, tulips are considered the symbol for perfect love, originating in Turkey.        
-        </p>
     `)
 
 }
 
-function changeImage(flowerSet){
+function changeImage(flowerData){
+    console.log(flowerData)
     const flowerImage = document.querySelector('img')
     const info = document.querySelector('#color-info')
     const colors = {
@@ -38,17 +55,14 @@ function changeImage(flowerSet){
     console.log('this', color)
 
     flowerImage.src = colors[color] || colors.yellow
-    let tulips = filterTulips()
-    console.log(tulips)
-    info.textContent = tulips.color_description
-
-    function filterTulips(flowerData){
-        console.log('why', flowerData)
-        flowerData.find(flowers => {
-            return flowers.name === "Tulip" && flowers.color.toLowerCase() === color
-        })
-    }
+    flowerData.find(flowers => {
+        if(flowers.name === "Tulip" && flowers.color.toLowerCase() === color)
+        return info.textContent = flowers.color_description
+    })
+    
 }
+
+
 
 
 export default showTulips

@@ -1,6 +1,10 @@
 
 const Home = () => {
-    console.log('page loaded')
+    const clearColorDescript = document.querySelector('#color-info')
+    clearColorDescript.textContent = ""
+    return(`
+    <main id="content"></main>
+    `)
 }
 
 export default Home

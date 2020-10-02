@@ -1,5 +1,5 @@
 const showPeonies = (flowerData) => {
-    changeImage(flowerData)
+    window.addEventListener('hashchange', changeImage(flowerData))
     return (`
 
     <nav id="flower-selection">
@@ -7,23 +7,55 @@ const showPeonies = (flowerData) => {
         <a id="choose-flower" href="#/flowers">Choose your flower</a>
     </nav>
 
-        <nav id="color-select">
-            <a href="#/peony?color=red">red</a>
-            <a href="#/peony?color=pink">pink</a>
-            <a href="#/peony?color=white">white</a>
-            </nav>
+    <ul id="flower-list">
+        <li><a href="#/azaeleas">Azaelea</a></li>
+        <li><a href="#/camellias">Camellia</a></li>
+        <li><a href="#/carnations">Carnation</a></li>
+        <li><a href="#/cherryblossoms">Cherry Blossom</a></li>
+        <li><a href="#/mums">Chrysanthemum</a></li>
+        <li><a href="#/hyacinths">Hyacinth</a></li>
+        <li><a href="#/hydrangeas">Hydrangea</a></li>
+        <li><a href="#/lilies">Lily</a></li>
+        <li><a href="#/lotus">Lotus</a></li>
+        <li><a href="#/peonies">Peony</a></li>
+        <li><a href="#/poppies">Poppy</a></li>
+        <li><a href="#/roses">Rose</a></li>
+        <li><a href="#/sunflowers">Sunflower</a></li>
+        <li><a href="#/tulips">Tulip</a></li>
+    </ul>
 
-        <p id="description">
-            Peonies are considered one of the most popular flowers for weddings, symbolizing happiness in marriage, good fortune, and compassion. In China and Japan, red peonies specifically are associated with nobility, honor and wealth.        
-        </p>
+    <nav id="color-select">
+        <a href="#/peonies?color=red">red</a>
+        <a href="#/peonies?color=pink">pink</a>
+        <a href="#/peonies?color=white">white</a>
+        </nav>
+
+    <p id="description">
+        Peonies are considered one of the most popular flowers for weddings, symbolizing happiness in marriage, good fortune, and compassion. In China and Japan, red peonies specifically are associated with nobility, honor and wealth.        
+    </p>
     `)
 
 }
 
+
 function changeImage(flowerData){
     console.log(flowerData)
     const flowerImage = document.querySelector('img')
-    flowerImage.src = '../peonies/peony-white.png'
+    const info = document.querySelector('#color-info')
+    const colors = {
+        red: '../peonies/peony-red.png',
+        pink: '../peonies/peony-pink.png',
+        white: '../peonies/peony-white.png'
+    }
+    let color = window.location.hash.split('=')[1]
+    console.log('this', color)
+
+    flowerImage.src = colors[color] || colors.white
+    flowerData.find(flowers => {
+        if(flowers.name === "Peony" && flowers.color.toLowerCase() === color)
+        return info.textContent = flowers.color_description
+    })
+    
 }
 
 

@@ -1,5 +1,5 @@
 const showCarnations = (flowerData) => {
-    changeImage(flowerData)
+    window.addEventListener('hashchange', changeImage(flowerData))
     return (`
 
     <nav id="flower-selection">
@@ -7,17 +7,34 @@ const showCarnations = (flowerData) => {
         <a id="choose-flower" href="#/flowers">Choose your flower</a>
     </nav>
 
-        <nav id="color-select">
-            <a href="#/carnations?color=yellow">yellow</a>
-            <a href="#/carnations?color=red">red</a>
-            <a href="#/carnations?color=purple">purple</a>
-            <a href="#/carnations?color=pink">pink</a>
-            <a href="#/carnations?color=white">white</a>
-        </nav>
+    <ul id="flower-list">
+        <li><a href="#/azaeleas">Azaelea</a></li>
+        <li><a href="#/camellias">Camellia</a></li>
+        <li><a href="#/carnations">Carnation</a></li>
+        <li><a href="#/cherryblossoms">Cherry Blossom</a></li>
+        <li><a href="#/mums">Chrysanthemum</a></li>
+        <li><a href="#/hyacinths">Hyacinth</a></li>
+        <li><a href="#/hydrangeas">Hydrangea</a></li>
+        <li><a href="#/lilies">Lily</a></li>
+        <li><a href="#/lotus">Lotus</a></li>
+        <li><a href="#/peonies">Peony</a></li>
+        <li><a href="#/poppies">Poppy</a></li>
+        <li><a href="#/roses">Rose</a></li>
+        <li><a href="#/sunflowers">Sunflower</a></li>
+        <li><a href="#/tulips">Tulip</a></li>
+    </ul>
 
-        <p id="description">
-        A popular wedding flower, carnations symbolize fascination, distinction, and love.        
-        </p>
+    <nav id="color-select">
+        <a href="#/carnations?color=yellow">yellow</a>
+        <a href="#/carnations?color=red">red</a>
+        <a href="#/carnations?color=purple">purple</a>
+        <a href="#/carnations?color=pink">pink</a>
+        <a href="#/carnations?color=white">white</a>
+    </nav>
+
+    <p id="description">
+    A popular wedding flower, carnations symbolize fascination, distinction, and love.        
+    </p>
     `)
 
 }
@@ -25,7 +42,23 @@ const showCarnations = (flowerData) => {
 function changeImage(flowerData){
     console.log(flowerData)
     const flowerImage = document.querySelector('img')
-    flowerImage.src = '../carnations/carnation-red.png'
+    const info = document.querySelector('#color-info')
+    const colors = {
+        yellow: '../carnations/carnation-yellow.png',
+        red: '../carnations/carnation-red.png',
+        purple: '../carnations/carnation-purple.png',
+        pink: '../carnations/carnation-pink.png',
+        white: '../carnations/carnation-white.png'
+    }
+    let color = window.location.hash.split('=')[1]
+    console.log('this', color)
+
+    flowerImage.src = colors[color] || colors.red
+    flowerData.find(flowers => {
+        if(flowers.name === "Carnation" && flowers.color.toLowerCase() === color)
+        return info.textContent = flowers.color_description
+    })
+    
 }
 
 
