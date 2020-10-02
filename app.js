@@ -53,7 +53,7 @@ const routeChanger = (event) => {
 }
 
 const getData = () => {
-    fetch('http://localhost:3000/flowers')
+    fetch('https://fleur-speak-backend.herokuapp.com/flowers')
         .then(response => response.json())
         .then(results => flowerData = results)
         .then(routeChanger)
