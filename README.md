@@ -1,7 +1,8 @@
 # fleurSpeak
-![white camellia](https://fleurspeak.web.app/peonies/peony-white.png)
+![white peony](https://fleurspeak.web.app/peonies/peony-white.png)
 
 FleurSpeak is a single page webapp to discover flower language
+Fun fact: all the flowers are drawn by myself!
 
 ## Installation
 -download the backend first [here](https://github.com/sydneygold/fleur-speak-backend)
